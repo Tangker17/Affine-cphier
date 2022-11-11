@@ -3,11 +3,11 @@
 <table border="2" cellpading="10">
   <tr>
     <td><b>Nama</b></td>
-    <td>Muhammad Rizky Abdillah</td>
+    <td>Ramon Misterhadi</td>
   </tr>
   <tr>
     <td><b>NIM</b></td>
-    <td>312010386</td>
+    <td>312010508</td>
   </tr>
   <tr>
     <td><b>Kelas</b></td>
@@ -174,7 +174,7 @@ def main():
         # while 1 != 2:
         # Infinite loop, only way to break out of is by inputting "Exit" (or CTRL + C).
         choice = int(input(
-            '\t\nNama : Muhammad Rizky Abdillah\t\nKelas : TI.20.A2\t\nNim : 312010386\t\n------------------------------\t\n||| PROGRAM AFFINE CIPHER ||||\t\n------------------------------\t\n[1] Encrypt \t\n[2] Decrypt \t\n[3] Exit  \t\nPilih : '))
+            '\t\nNama : Ramon Misterhadi\t\nKelas : TI.20.A2\t\nNim : 312010508\t\n------------------------------\t\n||| PROGRAM AFFINE CIPHER ||||\t\n------------------------------\t\n[1] Encrypt \t\n[2] Decrypt \t\n[3] Exit  \t\nPilih : '))
         if choice == 1:
             print(encryption())
             # Prints out the returned value from encryption function.
