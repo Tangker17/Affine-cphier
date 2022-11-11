@@ -1,40 +1,4 @@
-# Affine Cipher:octocat:
-
-<table border="2" cellpading="10">
-  <tr>
-    <td><b>Nama</b></td>
-    <td>Muhammad Rizky Abdillah</td>
-  </tr>
-  <tr>
-    <td><b>NIM</b></td>
-    <td>312010386</td>
-  </tr>
-  <tr>
-    <td><b>Kelas</b></td>
-    <td>TI.20.A2</td>
-  </tr>
-  <tr>
-    <td><b>MataKuliah</b></td>
-    <td>Kriptografi</td>
-  </tr>
-  <tr>
-    <td><b>Dosen Pengampu</b></td>
-    <td>Ahmad Turmudizy,S.Kom.,M.Kom
-</td>
-</table>
-🇮🇩  💌  🇵🇸
-
-## Apa itu affine cipher?📖 
-
-Seperti **Wikipedia** mengatakan: Cipher affine adalah jenis cipher substitusi monoalfabetik, di mana setiap huruf dalam alfabet dipetakan ke padanan numeriknya, dienkripsi menggunakan fungsi matematika sederhana, dan dikonversi kembali ke surat.
-
-## Apa kelemahan affine cipher?
-
-kelemahan utama cipher berasal dari fakta bahwa jika cryptanalyst dapat menemukan (melalui analisis frekuensi , kekuatan kasar , menebak atau sebaliknya) plaintext dari dua karakter ciphertext maka kunci dapat diperoleh dengan menyelesaikan persamaan simultan . Karena kita tahu A dan M relatif utama, ini dapat digunakan untuk secara cepat membuang banyak kunci "salah" dalam sistem otomatis.
-
-## contoh Program sederhana Enkripsi dan Decprypt:key::lock:
-```
- import math
+import math
 # Import math module to use the math.gcd() command
 
 
@@ -197,24 +161,3 @@ main()
 
 #test = input("Here: ");
 # Test if it prints out Exit at end. If it is run normally, it will not, only in shell.
-
-```
-Dan hasil dari program tersebut ialah ..
-![hasil ke1](images/1.png)
-🔒
-```
-plaintext : upb
-enkripsi key number : 5
-enkripsi key kedua : 8
-hasl enkripsi : EFN
-```
-🔓:
-* Decrypt
-```
-masukkan teks terenkripsi Anda: EFN
-kunci enkripsi pertama : 5
-kunci kedua : 8
-hasil decrypt : upb
-```
-Dan hasil dari program tersebut ialah ..
-![hasil ke1](images/1.png)
